@@ -1,0 +1,28 @@
+name: uihub_world_time
+description: "world time ui for uihub"
+#publish_to: 'none'
+repository: https://github.com/flutter-uihub/uihub_world_time
+
+version: 1.0.1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  modal_bottom_sheet:
+  super_cupertino_navigation_bar:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/uihub/uihub_world_time/
+  uses-material-design: true
+
+topics:
+  - uihub
